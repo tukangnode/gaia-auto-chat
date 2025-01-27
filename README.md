@@ -59,6 +59,7 @@ Make sure your node and domains have the same model. After you successfully join
 Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/tukangnode/gaia-auto-chat.git
+cd gaia-auto-chat
 npm install
 ```
 Use the script to automate node operations across subdomains.
@@ -67,13 +68,13 @@ Use the script to automate node operations across subdomains.
 To run the script for 3 subdomains:
 
 ```bash
-node auto.js qwen05b prismanuel llama
+node index.js qwen05b prismanuel llama
 ```
 
 To run the script for 1 subdomain:
 
 ```bash
-node auto.js qwen05b 
+node index.js qwen05b 
 ```
     
 ![Script Screenshot](https://s3.amazonaws.com/i.snag.gy/9bFKif.jpg)
