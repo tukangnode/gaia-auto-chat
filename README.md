@@ -24,7 +24,7 @@ Example:
 
 
 
-## Config Installation
+## Config Model Installation
 
 **On your Node server:**
 
@@ -52,7 +52,7 @@ Make sure your node and domains have the same model. After you successfully join
 
 
 
-## Auto Chat Completeion Usage
+## Auto Chat Completion Usage
 
 **On your vps** to run this script :
 
